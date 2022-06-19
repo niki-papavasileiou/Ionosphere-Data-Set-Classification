@@ -11,7 +11,7 @@ from sklearn.metrics import accuracy_score
 import matplotlib.pyplot as plt
 
 
-uploaded = files.upload()
+uploaded = files.upload()                                             #upload ionosphere_dataset.txt
 
 
 for filename in uploaded.keys(): 
